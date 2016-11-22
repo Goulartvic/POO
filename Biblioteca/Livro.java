@@ -1,14 +1,11 @@
-
 public class Livro extends Item {
 	
 	private String autor;
 	
-	public Livro(String autor, String codigo, boolean alocado, String dataPublic, String editora, String titulo){
+	public Livro(String autor, String codigo, boolean alocado, String titulo){
 		super();
 		this.setAutor(autor);
 		super.setCodigo(codigo);
-		super.setDataPublic(dataPublic);
-		super.setEditora(editora);
 		super.setAlocado(alocado);
 		super.setTitulo(titulo);
 	}

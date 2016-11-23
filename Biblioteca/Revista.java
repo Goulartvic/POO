@@ -1,8 +1,9 @@
+
 public class Revista extends Item {
 
 	private String edicao;
 	
-	public Revista(String edicao, String codigo, boolean alocado, String titulo){
+	public Revista(String edicao, int codigo, boolean alocado, String titulo){
 		super();
 		this.setEdicao(edicao);
 		super.setCodigo(codigo);

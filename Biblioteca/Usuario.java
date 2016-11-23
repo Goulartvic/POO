@@ -3,10 +3,12 @@ public class Usuario {
 
 	private String nome;
 	private int funcao;
+	private int id;
 	
-	public Usuario(String nome, int funcao){
+	public Usuario(String nome, int funcao, int id){
 		this.setFuncao(funcao);
 		this.setNome(nome);
+		this.setId(id);
 	}
 	
 	public String getNome() {
@@ -21,5 +23,13 @@ public class Usuario {
 	public void setFuncao(int funcao) {
 		this.funcao = funcao;
 	}
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
 	
 }

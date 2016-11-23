@@ -1,26 +1,26 @@
 
 public abstract class Item {
 	
-	private String titulo; 
-	private String codigo;
-	private boolean alocado;
+	protected String titulo; 
+	protected int codigo;
+	protected boolean alocado;
 	
-	public String getTitulo() {
+	protected String getTitulo() {
 		return titulo;
 	}
-	public void setTitulo(String titulo) {
+	protected void setTitulo(String titulo) {
 		this.titulo = titulo;
 	}
-	public String getCodigo() {
+	protected int getCodigo() {
 		return codigo;
 	}
-	public void setCodigo(String codigo) {
+	protected void setCodigo(int codigo) {
 		this.codigo = codigo;
 	}
-	public boolean isAlocado() {
+	protected boolean getAlocado() {
 		return alocado;
 	}
-	public void setAlocado(boolean alocado) {
+	protected void setAlocado(boolean alocado) {
 		this.alocado = alocado;
 	}
 

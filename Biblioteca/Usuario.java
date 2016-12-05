@@ -6,8 +6,8 @@ public class Usuario {
 	private int id;
 	
 	public Usuario(String nome, int funcao, int id){
+		
 		this.setFuncao(funcao);
-		this.setNome(nome);
 		this.setId(id);
 	}
 	
